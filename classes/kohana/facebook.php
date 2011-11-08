@@ -26,7 +26,7 @@ class Kohana_Facebook
 			array(
 				'appId'  => Kohana::config('facebook')->app_id,
 				'secret' => Kohana::config('facebook')->secret,
-				'cookie' => true, // enable optional cookie support
+				//'cookie' => true, // enable optional cookie support
 			)
 		);
 
